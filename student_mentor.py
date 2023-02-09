@@ -247,7 +247,6 @@ def solution():
     print(student2 > student3)
     print(student1 == student3)
 
-    
     print("\n*****Подсчет средней оценки всех студентов по определенному курсу*****\n")
     print("python: ", average_rating_students([student1, student2, student3], "python"))
     print("c++: ", average_rating_students([student1, student2, student3], "c++"))
